@@ -1,0 +1,29 @@
+{
+  "name": "node_polling_app",
+  "version": "1.0.0",
+  "description": "A real time polling app node.js and pusher.io",
+  "main": "app.js",
+  "scripts": {
+    "start": "@powershell -Command $env:DEBUG='app:*'; nodemon app"
+  },
+  "keywords": [
+    "pusher.io",
+    "express",
+    "polling-app",
+    "real-time"
+  ],
+  "author": "Mohammad mohiuddin mostafa kamal akib <mohiuddinmostafakamal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.1",
+    "pusher": "^2.2.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
